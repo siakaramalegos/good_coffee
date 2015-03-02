@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Good Coffee</title>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <!-- Font family -->
@@ -18,6 +22,35 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-inverse">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">Good Coffee</a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="active"><a href="">Coffee</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Fair Trade</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Coffee Gear <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Coffee</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Mugs</a></li>
+              <li><a href="#">T-shirts</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
 
     <div class="jumbotron">
       <h1>Welcome to Good Coffee</h1>
@@ -69,9 +102,6 @@
     </div>
   </footer>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed
-  <script src="js/bootstrap.min.js"></script>-->
+
 </body>
 </html>
