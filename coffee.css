@@ -2,13 +2,18 @@ body {
   background-color: #A2DED0;
 }
 
+.navbar.transparent.navbar-inverse {
+   background: rgba(0,0,0,0.5);
+   border: none;
+}
+
 .jumbotron {
   background-image:url('http://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg');
   padding: 20%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  margin-top: -40px;
+  margin-top: -70px;
   margin-bottom: 0px;
   background-position:  center;
 }
